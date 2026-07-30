@@ -102,7 +102,7 @@ function DefaultAgentSection({ settings, onReload }) {
             {saving && <span className="text-xs text-muted-foreground">Saving...</span>}
             {saved && <span className="text-xs text-green-500 inline-flex items-center gap-1"><CheckIcon size={12} /> Saved</span>}
             <select
-              value={settings.defaultAgent || 'claude-code'}
+              value={settings.defaultAgent || 'opencode'}
               onChange={handleChange}
               className="w-48 rounded-md border border-border bg-background px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-foreground"
             >
